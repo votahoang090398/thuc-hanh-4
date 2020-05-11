@@ -1,0 +1,6 @@
+ten=input("ho va ten:").split()
+print(ten)
+s1=ten.pop(0)
+ten.copy()
+s2=ten.pop(1)
+print(s1,''+s2)
